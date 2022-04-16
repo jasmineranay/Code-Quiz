@@ -11,7 +11,8 @@ body {
 }
 
 .start-btn,
-.info-box {
+.info-box,
+.quiz-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -117,4 +118,110 @@ header {
 .buttons button.quit{
   color: #5e80a1;
 
+}
+
+.quiz-box{
+  width: 550px;
+  background: white;
+  border-radius: 5px;
+}
+
+.quiz-box header{
+  position: relative;
+  z-index: 99; 
+  height: 70px;
+  padding: 0 30 px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
+
+}
+
+.quiz-box header .title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quiz-box header .timer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 145px;
+  height: 45px;
+  background: beige;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0 8px;
+
+}
+
+.quiz-box header .timer .timer_text{
+    font-weight: 400;
+    font-size: 17px;
+    user-select: none;
+
+}
+
+.quiz-box header .timer .timer-sec{
+    font-size:  18px;
+    font-weight: 500;
+    background: lightgray;
+    height: 30px;
+    width: 45px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    user-select: none;
+
+}
+
+.quiz-box .section{
+  padding: 25px 30px 20px 30px;
+  background: white;
+
+}
+
+.quiz-box section .que_text{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.quiz-box section .option-list{
+    padding: 20px 0;
+    display: block;
+}
+
+section .option-list .option{
+  background: lightseagreen;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-bottom 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.option_list .option:last-child{
+    msrgin-bottom: 0px;
+}
+
+section .option-list .option:hover{
+  color: darkgrey;
+  background: black;
+  border-color: darkgreen;
+
+}
+.option-list .option .icon {
+  height: 26px;
+  width: 26px;
+  border:2px solid transparent;
+  border-radius: 50px;
 }
