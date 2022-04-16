@@ -1,16 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
 body {
   font-family: sans-serif;
   background-color: #5e80a1;
-}
-
-
-header {
-  font-size: 50px;
-  padding: 30px;
-  text-align: center;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
 }
 
 .start-btn,
@@ -33,4 +30,45 @@ header {
   background: white;
   cursor: pointer;
 
+}
+
+header {
+  font-size: 50px;
+  padding: 30px;
+  text-align: center;
+  padding-top: 0px;
+  color: hsl(208, 11%, 26%);
+}
+
+
+.info-box {
+  width:540px;
+  background: white;
+  border-radius: 5px;
+
+}
+
+.info-box .info-title {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info_box .info_list{
+  padding: 15px 35px;
+}
+
+.info-box .info_list .info{
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+.info-box .info_list .info span{
+  font-weight: 600;
+  color: #5e80a1;
 }
