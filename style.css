@@ -121,9 +121,10 @@ header {
 }
 
 .quiz-box{
-  width: 550px;
+  width: 600px;
   background: white;
   border-radius: 5px;
+  padding: 10px 10px 10px 10px;
 }
 
 .quiz-box header{
@@ -141,8 +142,9 @@ header {
 }
 
 .quiz-box header .title{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
+  padding-top: 15px;
 }
 
 .quiz-box header .timer{
@@ -160,13 +162,13 @@ header {
 
 .quiz-box header .timer .timer_text{
     font-weight: 400;
-    font-size: 17px;
+    font-size: 14px;
     user-select: none;
 
 }
 
 .quiz-box header .timer .timer-sec{
-    font-size:  18px;
+    font-size:  14px;
     font-weight: 500;
     background: lightgray;
     height: 30px;
@@ -188,6 +190,7 @@ header {
 
 .quiz-box section .que_text{
     font-size: 25px;
+    padding-top: 10px;
     font-weight: 600;
 
 }
@@ -198,11 +201,11 @@ header {
 }
 
 section .option-list .option{
-  background: lightseagreen;
+  background: darkgrey;
   border: 1px solid black;
   border-radius: 5px;
   padding: 8px 15px;
-  margin-bottom 15px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -210,7 +213,7 @@ section .option-list .option{
 }
 
 .option_list .option:last-child{
-    msrgin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 section .option-list .option:hover{
@@ -223,5 +226,9 @@ section .option-list .option:hover{
   height: 26px;
   width: 26px;
   border:2px solid transparent;
-  border-radius: 50px;
+  border-radius: 50%;
+}
+
+.option-list .option .icon.tick{
+    border-color: hsl(208, 11%, 26%);
 }
