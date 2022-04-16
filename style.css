@@ -121,6 +121,7 @@ header {
 }
 
 .quiz-box{
+  display: none;
   width: 600px;
   background: white;
   border-radius: 5px;
@@ -227,8 +228,56 @@ section .option-list .option:hover{
   width: 26px;
   border:2px solid transparent;
   border-radius: 50%;
+  text-align: center;
+  font-size:  24px;
+  pointer-events: none;
 }
 
 .option-list .option .icon.tick{
+    color: beige;
     border-color: hsl(208, 11%, 26%);
+    background: lightpink;
+}
+
+.option-list .option .icon.cross{
+  color: blue;
+  border-color: white;
+}
+
+.quiz-box footer{
+  height: 60px;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quiz-box footer .total_que span p{
+    font-weight: 500;
+    padding: 0 5px;
+
+}
+
+footer .total_que span p:first-child{
+  padding-left: 0px;
+}
+
+footer .next-btn{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    color: white;
+    background: darkblue;
+    cursor: pointer;
+  
+}
+
+footer .next_btn:hoover{
+  background: black;
+
+
 }
