@@ -40,9 +40,9 @@ header {
   color: hsl(208, 11%, 26%);
 }
 
-
 .info-box {
-  width:540px;
+  display: none;
+  width: 540px;
   background: white;
   border-radius: 5px;
 
@@ -59,7 +59,7 @@ header {
   font-weight: 600;
 }
 
-.info_box .info_list{
+.info-box .info_list{
   padding: 15px 35px;
 }
 
@@ -71,4 +71,50 @@ header {
 .info-box .info_list .info span{
   font-weight: 600;
   color: #5e80a1;
+}
+
+.info-box .buttons{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 35px;
+  border-top: 1px solid lightpink;
+
+}
+
+.info-box .buttons buttons {
+  margin: 0 5px;
+  height: 40px;
+  width: 100px;
+  border: 1px solid #5e80a1;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3 ease;
+
+}
+
+.buttons buttons.restart{
+  color: white;
+  background: #5e80a1;
+  border-color: #5e80a1;
+
+}
+
+.buttons buttons.quit{
+  color: #5e80a1;
+  border-color: #5e80a1;
+
+}
+
+.buttons .button.restart:hover{
+  background: #5e80a1;
+}
+
+.buttons button.quit{
+  color: #5e80a1;
+
 }
