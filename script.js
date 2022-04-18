@@ -1,21 +1,21 @@
 //getting all required elements 
-var startQuiz = document.querySelector(".start-btn button");
-var infoBox= document.querySelector(".info-box");
+var startQuiz = document.querySelector(#info-box);
+var infoBox= document.querySelector(#info-box);
 var quitQuiz = document.querySelector(".buttons .quit");
-var continue_btn = infoBox.querySelector(".buttons .restart");
-var quiz_box = info-box.querySelector(".buttons .restart");
+var continue_btn = document.querySelector(".buttons .restart");
+var quiz_box = document.querySelector(".buttons .restart");
 
-start-btn.oneClick= ()=>{
+startQuiz.onClick= ()=>{
   infoBox.classList.add("activateInfo");
 
 }
 
-quit_btn.oneClick= ()=>{
+quitQuiz.onClick= ()=>{
   info-box.classList.remove("activateInfo");
 }
 
-restart_btn.oneClick= ()=>{
+restart_btn.onClick= ()=>{
   info-box.classList.remove("activateInfo");
-  quiz_box.classList.remove("activateQuiz");
+  quiz-box.classList.add("activateQuiz");
 }
 
