@@ -23,6 +23,14 @@ body {
 
 }
 
+.info-box.activateInfo{
+  z-index:
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0.9);  
+
+
+}
 .start-btn button{
   font-size: 25px;
   font-weight: 500;
