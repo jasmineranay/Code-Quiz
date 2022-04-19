@@ -1,16 +1,17 @@
 //getting all required elements 
-var startQuiz = document.querySelector(#info-box);
-var infoBox= document.querySelector(#info-box);
-var quitQuiz = document.querySelector(".buttons .quit");
-var continue_btn = document.querySelector(".buttons .restart");
-var quiz_box = document.querySelector(".buttons .restart");
+const start_btn = document.querySelector(".start-btn button");
+const info_box = document.querySelector(".info-box");
+const exit_btn = document.querySelector(".buttons .quit");
+const continue_btn = document.querySelector(".buttons .restart");
+const continue_box = document.querySelector(".buttons .restart");
+const quiz_box = info_box.querySelector("quiz-box");
 
-startQuiz.onclick= ()=>{
-  infoBox.classList.add("activateInfo");
+start_btn.onclick= ()=>{
+  info-Box.classList.add("activateInfo");
 
 }
 
-quitQuiz.onclick= ()=>{
+exit_btn.onclick= ()=>{
   info-box.classList.remove("activateInfo");
 }
 
