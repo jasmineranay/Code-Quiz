@@ -4,20 +4,20 @@ const info_box = document.querySelector(".info-box");
 const exit_btn = document.querySelector(".buttons .quit");
 const continue_btn = document.querySelector(".buttons .restart");
 const continue_box = document.querySelector(".buttons .restart");
-const quiz_box = info_box.querySelector("quiz-box");
+const quiz_box = document.querySelector("quiz-box");
 
 start_btn.onclick= ()=>{
-  info-Box.classList.add("activateInfo");
+  info_box.classList.add("activateInfo");
 
 }
 
 exit_btn.onclick= ()=>{
-  info-box.classList.remove("activateInfo");
+  info_box.classList.remove("activateInfo");
 }
 
 continue_btn.onclick= ()=>{
-  info-box.classList.remove("activateInfo");
-  quiz-box.classList.add("activateQuiz");
+  info_box.classList.remove("activateInfo");
+  quiz_box.classList.add("activateQuiz");
   showQuestions();
 }
 
