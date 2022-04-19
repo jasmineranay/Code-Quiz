@@ -5,17 +5,25 @@ var quitQuiz = document.querySelector(".buttons .quit");
 var continue_btn = document.querySelector(".buttons .restart");
 var quiz_box = document.querySelector(".buttons .restart");
 
-startQuiz.onClick= ()=>{
+startQuiz.onclick= ()=>{
   infoBox.classList.add("activateInfo");
 
 }
 
-quitQuiz.onClick= ()=>{
+quitQuiz.onclick= ()=>{
   info-box.classList.remove("activateInfo");
 }
 
-restart_btn.onClick= ()=>{
+continue_btn.onclick= ()=>{
   info-box.classList.remove("activateInfo");
   quiz-box.classList.add("activateQuiz");
+  showQuestions();
 }
 
+let que_count = 0;
+
+function showQuestions(){
+  const que_text = document.querySelector(".quetext");
+  let que_tag = '<span>' + questions[0].question + '</span>';
+  que_text.innerHTML = que_tag;
+}

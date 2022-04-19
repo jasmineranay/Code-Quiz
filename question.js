@@ -3,11 +3,12 @@ let questions = [
 {
     number: 1,
     question: "What does HTML stand for?",
+    answer: "HyperText Markup Language",
     options: [
-        "Hyper Text Preprocessor",
-        "Hyper Text Markup Language",
-        "Hyper Text Multiple Language",
-        "Hyper Text Maker Language",
+        "HyperText Preprocessor",
+        "HyperText Markup Language",
+        "HyperText Multiple Language",
+        "HyperText Maker Language",
     ]
 
 },
@@ -16,6 +17,7 @@ let questions = [
 
     number: 2,
     question: "What does CSS stand for?",
+    answer: "Common Style Sheet",
     options: [
         "Common Style Sheet",
         "Colorful Style Sheet",
@@ -27,6 +29,7 @@ let questions = [
 {
 number: 3,
 question: "What does PHP stand for?",
+answer: "Hypertext Preprocessor",
 options: [
     "Hypertext Preprocessor",
     "Hypertext Programming",
@@ -38,23 +41,15 @@ options: [
 
 {
     number: 4,
-    question: "What does HTML stand for?",
-    options: [
-        "Hyper Text Preprocessor",
-        "Hyper Text Markup Language",
-        "Hyper Text Multiple Language",
-        "Hyper Text Maker Language",
-    ]
-},
-
-{
-    number: 5,
     question: "What does SQL stand for?",
+    answer: "Structured Query Language",
     options: [
         "Stylish Question Language",
         "Stylesheet Query Language",
         "Statement Question Language",
         "Structured Query Language",
     ]
-};
+},
+
+];
 
